@@ -8,6 +8,10 @@ class PessoaService:
     #serviço listar
     def listar(self, db):
         return self.repo.listar(db)
+
+    #serviço listar_id
+    def listar_id(self, db, id):
+        return self.repo.pessoa_id(db, id)
     
     #serviço cadastrar
     def cadastrar(self, db, pessoa):
@@ -21,5 +25,3 @@ class PessoaService:
     # serviço excluir
     def excluir(self, db, id):
         return self.repo.excluir(db, id)
-
-    #faltam alterar e excluir

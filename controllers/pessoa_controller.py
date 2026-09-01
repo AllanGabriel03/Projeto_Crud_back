@@ -8,6 +8,10 @@ class PessoaController:
     #controler listar
     def listar(self, db):
         return self.servico.listar(db)
+
+    #controler listar_id
+    def listar_id(self, db, id):
+        return self.servico.listar_id(db, id)
     
     #controle cadastrar
     def cadastrar(self, db, pessoa):
