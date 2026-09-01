@@ -18,4 +18,6 @@ app.include_router(pessoa_router)
 """
     PARA EXECUTAR O PROJETO DIGITE A LINHA DE COMANDO:
     uvicorn main:app --reload
+
+    python -m  uvicorn main:app --reload
 """
