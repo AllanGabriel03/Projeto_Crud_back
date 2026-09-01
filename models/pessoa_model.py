@@ -11,5 +11,3 @@ class Pessoa(Base):
     datanascimento = Column(Date)
     peso = Column(Integer)
     altura = Column(DECIMAL(10,2))
-    
-
